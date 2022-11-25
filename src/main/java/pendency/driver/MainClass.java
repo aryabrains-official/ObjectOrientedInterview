@@ -17,7 +17,7 @@ public class MainClass {
         System.out.println("[UPI, Karnataka] get count: " + pendencySystem.getCounts(Arrays.asList("UPI", "Karnataka")));
         System.out.println("[UPI, Karnataka, Bangalore] get count: " + pendencySystem.getCounts(Arrays.asList("UPI", "Karnataka", "Bangalore")));
 
-        `System.out.println("[Bangalore] get count: " + pendencySystem.getCounts(Arrays.asList("Bangalore")));
+        System.out.println("[Bangalore] get count: " + pendencySystem.getCounts(Arrays.asList("Bangalore")));
 
         pendencySystem.startTracking("4221", Arrays.asList("Wallet", "Karnataka", "Bangalore"));
         pendencySystem.stopTracking("1112");
